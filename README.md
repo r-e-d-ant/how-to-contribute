@@ -69,4 +69,4 @@ Quick recap:
 9. Create a pull request.
 
 
-// Learned those steps from <a href="https://markodenic.com/make-your-first-open-source-contribution/">Marko Denic</a>
+// Learned those steps from <a href="https://markodenic.com/make-your-first-open-source-contribution/" target="_blank">Marko Denic</a>
