@@ -6,46 +6,46 @@ How to do a contribution to an Open Source projects
 
 2. Step 2: Fork the repository. Once you’re there, click the “Fork” button.
    This will copy the whole project under your GitHub user.
-   The link will look like this https://github.com/<YourUsername>/git-repo.
+   The link will look like this ```https://github.com/<YourUsername>/git-repo```.
 
-3. Step 3: Clone the repository. Open your terminal, and run the following command:
-   git clone https://github.com/<YourUsername>/git-repo.git
+3. Step 3: Clone the repository. Open your terminal, and run the following command:<br>
+   ```git clone https://github.com/<YourUsername>/git-repo.git```<br>
    This will create a local copy of the repository.
 
 4. Step 4: Create a new remote for the upstream repository.
-   For this we will use the following command:
-   git remote add upstream https://github.com/repo-owner-username/git-repo
+   For this we will use the following command:<br>
+   ```git remote add upstream https://github.com/repo-owner-username/git-repo```<br>
 
 5. Step 5: Create a new branch.
-   We can do this by running the command:
-
-   // git checkout -b my-branch
+   We can do this by running the command:<br>
+   
+   ```git checkout -b my-branch```<br>
 
    This will create a new branch, and switch to it.
 
 6. Step 6: Add some code.
    Now, the time has come, we actually add some code. 😊
    After adding the changes, you can check them by running git status.
-   If everything is as expected, we can add the code to the staging area:
+   If everything is as expected, we can add the code to the staging area:<br>
 
-   // git add .
+   ```git add .```<br>
 
 7. Step 7: Commit your changes.
    This is the last step before pushing the code to the repository.
-   Run the command:
+   Run the command:<br>
 
-   // git commit -m "Adding an awesome feature to my-branch"
+   ```git commit -m "Adding an awesome feature to my-branch"```<br>
 
-8. To push the current branch and set the remote as upstream, use
+8. To push the current branch and set the remote as upstream, use<br>
 
-    git push --set-upstream origin mugisha-branch
+    ```git push --set-upstream origin my-branch```<br>
 
 •. Step 8: Push the changes to your repository.
 
    Finally, we’re ready to push the changes.
-   git push is the command we need in this case. Let’s run it:
+   git push is the command we need in this case. Let’s run it:<br>
 
-   // git push -u origin my-branch
+   ```git push -u origin my-branch```<br>
 
 9. Step 9: Create a pull request.
 
